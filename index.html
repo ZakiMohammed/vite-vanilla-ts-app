@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css" />
+
+    <title>Vite + TS</title>
+  </head>
+  <body class="bg-brand">
+    <nav class="navbar navbar-expand-sm navbar-light bg-brand">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="vite.svg" alt="Logo" />
+          Vite Notes
+        </a>
+        <img src="src/typescript.svg" alt="TypeScript" class="rounded img-stretch" />
+      </div>
+    </nav>
+
+    <div class="container my-3">
+      <div class="row">
+        <div class="col">
+          <form>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter your note" />
+              <button class="btn btn-primary">Add</button>
+            </div>
+          </form>
+
+          <ul class="list-group"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
