@@ -54,6 +54,20 @@ For debugging go to VS Code `Run and Debug` side menu, click on the button `Debu
 }
 ```
 
+#### Build Application
+
+To build the application run below command:
+
+```
+npm run build
+```
+
+Preview built application:
+
+```
+npm run preview
+```
+
 #### Unit Test Application
 
 For Unit Testing install:
